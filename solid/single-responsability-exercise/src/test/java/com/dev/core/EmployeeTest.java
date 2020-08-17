@@ -8,7 +8,7 @@ import static org.junit.Assert.*;
 
 public class EmployeeTest {
     @Test 
-    public void testAppHasAGreeting() {
+    public void testEmployee() {
     	final String name = "Dev";
     	final String position = "Developer";
     	
