@@ -3,8 +3,9 @@
  */
 package com.dev.core;
 
+import static org.junit.Assert.assertEquals;
+
 import org.junit.Test;
-import static org.junit.Assert.*;
 
 public class EmployeeTest {
     @Test 
@@ -13,6 +14,6 @@ public class EmployeeTest {
     	final String position = "Developer";
     	
         Employee employee = new Employee(name, position);
-        assertNotNull(name + " " + position, employee.printTimeSheetReport());
+        assertEquals(name + " " + position, employee.printTimeSheetReport());
     }
 }
